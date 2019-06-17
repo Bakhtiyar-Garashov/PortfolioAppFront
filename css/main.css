@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap&subset=latin-ext');
+
+body{
+    height: 100% !important;
+}
+
+
+#logo{
+    float: left;
+    margin-left: 10%;
+    text-align: start;
+    
+}
+
+
+.navbar{
+
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 997;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar.scrolled{
+    background-color:rgba(0, 0, 0,0.5) !important;
+  }
+
+
+.nav-link{
+    
+    color: white !important;
+    font-size: 15px;
+    margin: 5px 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover
+{
+   background-color: rgba(0,0,0,0.3);
+}
+#main-section{
+    background-color: #a528b7;
+    width: 100%;
+    padding-top: 10%;
+    height: 100vh;
+    
+}
+.container{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.main h2{
+    margin:15% 10%  auto;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    
+}
+#main-button{
+    padding: 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 120px;
+    margin-bottom: 32%;
+    border: none;
+    background-color: #eb7d4b;
+}
+
+
+
+#services-section{
+    background-color: #17c2a4;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+    padding-top: 11%;
+}
+
+.services h2{
+    margin-top: 50px;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.services h5{
+    margin-bottom: 100px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.services-line{
+    color: black;
+    border: 3px solid #116052;
+    width: 90px;
+}
+
+.fa-flag, .fa-desktop, .fa-cogs, .fa-rocket{
+    font-size: 120px;
+    margin-bottom: 30px;
+    color:#000000;
+}
+.title{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.subtitle{
+    font-size: 16pt;
+    color: #c7ece3;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 80px;
+}
+
+
+#team-section{
+    background-color: #e7f1f8;
+    width: 100%;
+    padding-bottom: 5%;
+    height: 100%;
+   
+
+}
+
+.team-line{
+    color: black;
+    border: 3px solid #116052;
+    width: 90px;
+}
+
+.team h2{
+    padding-bottom: 20px;
+    padding-top: 10%;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+
+}
+.team h5{
+    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 20px;
+    color: rgb(6, 103, 64);
+}
+
+.duty{
+    font-size: 13px;
+    color: blue;
+}
+
+.description{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.team img{
+    width: 200px;
+    margin-top: 5px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    
+    
+}
+.team img:hover{
+    transform: scale(1.2,1.2);
+    
+}
+
+.fa-facebook, .fa-instagram, .fa-linkedin
+{
+    font-size: 17px;
+    color:white;
+    margin: 10px;
+   
+    
+}
+
+.team a{
+    background-color:#bdd1df;
+    border-radius: 50%;  
+    padding:8px 1px; 
+    width: 40px;
+}
+
+#skills-section{
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 10%;
+    height: 100%;
+   
+
+}
+
+.skills-line{
+    color: black;
+    border: 3px solid #116052;
+    width: 90px;
+}
+
+.skills h2{
+    padding-top: 20%;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+
+}
+.skills h5{
+    margin-bottom: 50px;
+    
+}
+
+.skills img{
+   width: 160px;
+   height: 160px;
+   margin: 20px auto;
+   background-color: transparent;
+   position: relative;
+}
+
+.skill-measure{
+    position: absolute;
+    top: 70px;
+    left: 40%;
+    
+}
+.knowledge{
+    color: #3c4761;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+   
+}
+
+
+
+#portfolio-section{
+    background-color: #ffdd99;
+    width: 100%;
+    padding-bottom: 10%;
+    height: 100%;
+   
+
+}
+
+.portfolio-line{
+    color: black;
+    border: 3px solid #116052;
+    width: 90px;
+}
+
+.portfolio h2{
+    padding-top: 20%;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+
+}
+.portfolio h5{
+    margin-bottom: 50px;
+    
+}
+.works-description{
+    color: #3c4761;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.works-description{
+    text-decoration: none;
+}
+
+ .portfolio img{
+     width: 250px;
+     height: 150px;
+     margin: 10px auto;
+     background-color: transparent;
+     
+ }
+ 
+ .types{
+     
+     margin: 20px;
+     border-radius: 10px;
+     line-height: 40px;
+     height: 40px;
+     color: white;
+     font-weight: 500;
+     background-color: #b08c44;
+ }
+
+ .load-more{
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #17c2a4;
+ }
+
+ #testim{
+    background-color: #d74680;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+
+}
+
+.slider-line{
+    color: black;
+    border: 3px solid #116052;
+    width: 90px;
+}
+
+.slider-title{
+    padding-top: 20%;
+    font-size: 25pt;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.slider-subtitle{
+    margin-bottom: 10px;
+    color: white;
+
+
+}
+
+
+#contact{
+    background-color: #3c5499;
+    width: 100%;
+    padding-top: 10%;
+    
+    height: 100%;
+   
+
+}
+
+.contact-line{
+   
+    border: 3px solid #ffffff;
+    width: 90px;
+}
+
+.contact-title{
+    
+    font-size: 25pt;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+
+}
+.contact-subtitle
+{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+
+.send-us{
+    padding: 10px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 0;
+    background-color: #30bae7;
+}
+
+#social-media {
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    height: 80px;
+    overflow-y: hidden;
+    
+    background-color: #344b8e;
+    
+}
+
+h3{
+    color: #ffffff !important;
+   
+    line-height: 80px;
+    overflow-y: hidden;
+    font-size: 15pt;
+    
+}
